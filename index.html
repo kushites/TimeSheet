@@ -21,28 +21,29 @@
         <tr>
             <td>Monday</td>
             <td>
-                <input type="text">
+                <input type="number" min="1" max="12">
                 <span>:</span>
-                <input type="text">
+                <input type="number" min="00" max="59">
                 <select name="time" id="ampm">
                     <option value="AM">AM</option>
                     <option value="PM">PM</option>
                 </select>
             </td>
             <td>
-                <input type="text">
+                <input type="number" min="1" max="12">
                 <span>:</span>
-                <input type="text">
+                <input type="number" min="00" max="59">
                 <select name="time" id="ampm">
                     <option value="AM">AM</option>
                     <option value="PM">PM</option>
                 </select>
             </td>
             <td>
-                <input type="text">
+                <input type="number" min="1" max="5">
                 <span>:</span>
-                <input type="text">
+                <input type="number" min="00" max="59">
             </td>
+            <td></td>
         </tr>
         <tr>
             <td>Tuesday</td>
@@ -65,10 +66,11 @@
                 </select>
             </td>
             <td>
-                <input type="text">
+                <input type="number" min="1" max="5">
                 <span>:</span>
-                <input type="text">
+                <input type="number" min="00" max="59">
             </td>
+            <td></td>
         </tr>
         <tr>
             <td>Wednesday</td>
@@ -91,10 +93,11 @@
                 </select>
             </td>
             <td>
-                <input type="text">
+                <input type="number" min="1" max="5">
                 <span>:</span>
-                <input type="text">
+                <input type="number" min="00" max="59">
             </td>
+            <td></td>
         </tr>
         <tr>
             <td>Thursday</td>
@@ -117,10 +120,11 @@
                 </select>
             </td>
             <td>
-                <input type="text">
+                <input type="number" min="1" max="5">
                 <span>:</span>
-                <input type="text">
+                <input type="number" min="00" max="59">
             </td>
+            <td></td>
         </tr>
         <tr>
             <td>Friday</td>
@@ -143,10 +147,11 @@
                 </select>
             </td>
             <td>
-                <input type="text">
+                <input type="number" min="1" max="5">
                 <span>:</span>
-                <input type="text">
+                <input type="number" min="00" max="59">
             </td>
+            <td></td>
         </tr>
         <tr>
             <td>Saturday</td>
@@ -170,10 +175,11 @@
                 </select>
             </td>
             <td>
-                <input type="text">
+                <input type="number" min="1" max="5">
                 <span>:</span>
-                <input type="text">
+                <input type="number" min="00" max="59">
             </td>
+            <td></td>
         </tr>
         <tr>
             <td>Sunday</td>
@@ -196,20 +202,21 @@
                 </select>
             </td>
             <td>
-                <input type="text">
+                <input type="number" min="1" max="5">
                 <span>:</span>
-                <input type="text">
+                <input type="number" min="00" max="59">
             </td>
+            <td></td>
         </tr>
         <tr>
          <td colspan="4">ToTal:-</td>
-         <td id="total">558</td>
+         <td id="total"></td>
         </tr>
       </table>
   
     <div id="buttons">
-        <button><i class="fa-solid fa-calculator"></i>Calculate</button>
-        <button><i class="fa-solid fa-circle-xmark"></i>Clear All</button>
+        <button id="calculate"><i class="fa-solid fa-calculator"></i>Calculate</button>
+        <button id="clear"><i class="fa-solid fa-circle-xmark"></i>Clear All</button>
     </div>
 </body>
 </html>
